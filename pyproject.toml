@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pattern-recognition-algorithms"
+version = "0.1.0"
+description = ""
+authors = ["dichenk"]
+readme = "README.md"
+packages = [{include = "pattern_recognition_algorithms"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
